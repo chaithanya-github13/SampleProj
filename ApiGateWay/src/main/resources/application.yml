@@ -1,0 +1,11 @@
+server:
+  port: 8135
+zuul:
+  routes:
+    CarWasher:
+      path: /chay/**
+      serviceId: CarWasher
+
+eureka:
+  instance:
+    hostname: localhost
